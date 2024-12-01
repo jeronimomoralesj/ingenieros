@@ -1,0 +1,257 @@
+/* General Container */
+.find-new-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Card Grid */
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Individual Card */
+  .card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Card Header */
+  .card-header {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  
+  .profile-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+  }
+  
+  .card-title h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .card-title p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Card Details */
+  .card-details {
+    padding: 15px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .card-details p {
+    margin: 10px 0;
+  }
+  
+  .service-tag {
+    display: inline-block;
+    background-color: #ececff;
+    color: #6c63ff;
+    border-radius: 8px;
+    padding: 5px 10px;
+    font-size: 12px;
+    margin: 5px 5px 0 0;
+  }
+  
+  /* Card Footer */
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-top: 1px solid #f0f0f0;
+  }
+  
+  .view-profile-button,
+  .schedule-button {
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .view-profile-button {
+    background-color: #f0f0f5;
+    color: #6c63ff;
+  }
+  
+  .view-profile-button:hover {
+    background-color: #dcdcf1;
+  }
+  
+  .schedule-button {
+    background-color: #6c63ff;
+    color: #fff;
+  }
+  
+  .schedule-button:hover {
+    background-color: #5548c8;
+  }
+  
+  /* Pagination */
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 15px;
+  }
+  
+  .pagination-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #6c63ff;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .pagination-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .pagination-info {
+    font-size: 14px;
+    color: #555;
+  }
+  
+
+
+  .filters-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .filter-input {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    width: 200px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .filter-input:focus {
+    border-color: #6c63ff;
+    outline: none;
+  }
+  
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+
+
+  /* Popup Overlay */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  /* Popup Content */
+  .popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+  }
+  
+  /* Book.js Container */
+  .book-container {
+    text-align: center;
+  }
+  
+  .book-container h2 {
+    margin-bottom: 10px;
+  }
+  
+  .book-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .book-container li {
+    margin: 5px 0;
+  }
+  
+  .close-popup-button {
+    padding: 10px 15px;
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .close-popup-button:hover {
+    background-color: #5548c8;
+  }
+  

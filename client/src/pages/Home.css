@@ -1,0 +1,21 @@
+.home {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 80px;
+  }
+  
+  .home-content {
+    margin: 2rem 0;
+    color: #333;
+  }
+  
+  .home-content h1 {
+    font-size: 2.5rem;
+    color: #003366;
+  }
+  
+  .home-content p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+  

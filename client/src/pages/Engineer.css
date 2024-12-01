@@ -1,0 +1,267 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .engineer-page {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  /* Button Styling */
+  .create-profile-button,
+  .add-field-button,
+  .remove-field-button,
+  .submit-profile-button {
+    padding: 0.8rem 1.2rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .create-profile-button {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .add-field-button {
+    background-color: #007bff;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .remove-field-button {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 0.5rem;
+  }
+  
+  .submit-profile-button {
+    background-color: #4caf50;
+    color: #fff;
+    width: 100%;
+  }
+  
+  button:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+  }
+  
+  /* Form Styling */
+  .form-card {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .form-card h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .form-card input,
+  .form-card textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+  }
+  
+  .form-card textarea {
+    resize: none;
+    height: 100px;
+  }
+  
+  .form-card input:focus,
+  .form-card textarea:focus {
+    border-color: #007bff;
+  }
+  
+  .dynamic-field {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .dynamic-field input {
+    flex: 1;
+  }
+  
+  .section-padding {
+    margin-top: 2rem;
+    border-top: 1px solid #f0f0f0;
+    padding-top: 1.5rem;
+  }
+  
+  /* Work Hours Styling */
+  .work-hours-container {
+    margin-top: 1rem;
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .work-hours-container h4 {
+    margin-bottom: 1rem;
+  }
+  
+  .work-hours-table {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .work-day-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .work-day-row label {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .day-label {
+    font-weight: 600;
+  }
+  
+  .hours-inputs input[type="time"] {
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    outline: none;
+  }
+  
+  .hours-inputs input[type="time"]:focus {
+    border-color: #007bff;
+  }
+  
+  /* Action Buttons */
+  .day-buttons {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .add-day-button,
+  .remove-day-button {
+    padding: 0.5rem 0.8rem;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .add-day-button {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .remove-day-button {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .add-day-button:hover,
+  .remove-day-button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Profile Card Styling */
+  .profile-card {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .profile-card h2 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    color: #333;
+  }
+  
+  .profile-card p {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .profile-card ul {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    padding-left: 1.2rem;
+    list-style: disc;
+    color: #555;
+  }
+  
+  .profile-card ul li {
+    margin-bottom: 0.3rem;
+  }
+  
+  .edit-profile-button {
+    background-color: #ffc107;
+    color: #fff;
+    padding: 0.8rem 1.2rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .edit-profile-button:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .form-card,
+    .profile-card {
+      padding: 1.5rem;
+    }
+  
+    .dynamic-field {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .work-day-row {
+      grid-template-columns: 2fr 1fr 1fr;
+    }
+  
+    .hours-inputs input[type="time"] {
+      width: 100%;
+    }
+  
+    .day-buttons {
+      justify-content: flex-start;
+    }
+  }
+  

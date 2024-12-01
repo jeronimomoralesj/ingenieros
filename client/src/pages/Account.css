@@ -1,0 +1,222 @@
+/* General Styling */
+.account-page {
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    max-width: 800px;
+    margin: 100px auto;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  /* Regular User Section */
+  .regular-info {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .regular-info p {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  /* Engineer Section */
+  .engineer-section {
+    margin-bottom: 30px;
+  }
+  
+  .engineer-info {
+    background-color: #fdfdfd;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .engineer-info h2 {
+    margin-bottom: 20px;
+    color: #222;
+  }
+  
+  .engineer-info p {
+    margin: 10px 0;
+    font-size: 15px;
+    color: #555;
+  }
+  
+  .engineer-info ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .engineer-info ul li {
+    margin: 5px 0;
+    font-size: 15px;
+    color: #555;
+  }
+  
+  .edit-profile-button {
+    display: block;
+    background-color: #6c63ff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-profile-button:hover {
+    background-color: #5548c8;
+  }
+  
+  /* Form Styling */
+  .form-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-card h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form-card form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-card form input,
+  .form-card form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .form-card form textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  .submit-profile-button {
+    background-color: #6c63ff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-profile-button:hover {
+    background-color: #5548c8;
+  }
+  
+  /* Dynamic Fields */
+  .dynamic-field {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .dynamic-field input {
+    flex: 1;
+  }
+  
+  .remove-field-button {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .remove-field-button:hover {
+    background-color: #c64444;
+  }
+  
+  .add-field-button {
+    display: inline-flex;
+    align-items: center;
+    background-color: #5cb85c;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 14px;
+    gap: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-field-button:hover {
+    background-color: #4cae4c;
+  }
+  
+  /* Work Hours Styling */
+  .work-hours-container {
+    margin-top: 20px;
+  }
+  
+  .work-day {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .day-checkbox {
+    font-size: 14px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .hours-inputs input {
+    width: 100px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .account-page {
+      padding: 10px;
+    }
+  
+    .form-card {
+      padding: 15px;
+    }
+  
+    .dynamic-field input {
+      width: 100%;
+    }
+  
+    .hours-inputs input {
+      width: calc(50% - 10px);
+    }
+  }
+  

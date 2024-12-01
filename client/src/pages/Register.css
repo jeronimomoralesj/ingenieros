@@ -1,0 +1,117 @@
+/* General Styling */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+  }
+  
+  .register-box {
+    background: #fff;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .register-box h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .register-box p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 2rem;
+  }
+  
+  .register-box p a {
+    color: #003366;
+    text-decoration: none;
+  }
+  
+  .register-box p a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Input Groups */
+  .input-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+  }
+  
+  .input-group label {
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .input-group input:focus {
+    border-color: #6c63ff;
+    outline: none;
+  }
+  
+  /* Role Selection */
+  .role-selection {
+    margin-bottom: 1.5rem;
+    text-align: left;
+  }
+  
+  .role-selection label {
+    font-size: 0.9rem;
+    color: #333;
+  }
+  
+  .roles {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  .roles label {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+  }
+  
+  .roles input {
+    margin-right: 0.5rem;
+  }
+  
+  /* Submit Button */
+  .register-button {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    background: #003366;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .register-button:hover {
+    background: #003366;
+  }
+  
+  /* Error Message */
+  .error-message {
+    color: #d9534f;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+  

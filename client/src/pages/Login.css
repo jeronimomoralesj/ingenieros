@@ -1,0 +1,192 @@
+/* General Reset */
+:root {
+    --primary-color: #003366;
+    --secondary-color: #ffffff;
+    --background-color: #f8f9fa;
+    --error-color: #ff6b6b;
+    --font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    font-family: var(--font-family);
+    margin: 0;
+    background: var(--background-color);
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-card {
+    width: 400px;
+    background: var(--secondary-color);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+  }
+  
+  h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  p {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    color: #6c757d;
+  }
+  
+  .create-account {
+    color: var(--primary-color);
+    cursor: pointer;
+  }
+  
+  form {
+    text-align: left;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-group label {
+    font-size: 0.85rem;
+    color: #495057;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  input[type='email'],
+  input[type='password'] {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    outline: none;
+  }
+  
+  input[type='email']:focus,
+  input[type='password']:focus {
+    border-color: var(--primary-color);
+  }
+  
+  .password-field {
+    position: relative;
+  }
+  
+  .password-field i {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #6c757d;
+    cursor: pointer;
+  }
+  
+  .forgot-password {
+    font-size: 0.85rem;
+    color: var(--primary-color);
+    text-align: right;
+    margin-top: -10px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 0.8rem;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background: #003366;
+  }
+  
+  .error {
+    font-size: 0.85rem;
+    color: var(--error-color);
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .divider {
+    margin: 1.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    color: #6c757d;
+  }
+  
+  .divider::before,
+  .divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: #ced4da;
+    margin: 0 0.5rem;
+  }
+  
+  .social-login {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  
+  .social-button {
+    flex: 1;
+    padding: 0.8rem;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .social-button i {
+    margin-right: 0.5rem;
+  }
+  
+  .social-button.apple {
+    color: #000;
+    background: #f8f9fa;
+  }
+  
+  .social-button.google {
+    color: #db4437;
+    background: #f8f9fa;
+  }
+  
+  .footer-text {
+    font-size: 0.8rem;
+    color: #6c757d;
+    margin-top: 2rem;
+  }
+  
+  .footer-link {
+    color: var(--primary-color);
+    cursor: pointer;
+  }
+  
